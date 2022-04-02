@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.td-underline{
+    text-decoration: underline;
+}
+
+.bg-blue{
+    background-color: #0083CB;
+}
+.cover{
+    background-image: url(../img/zenska_zona_cover.jpg);
+    height: 100%;
+    padding: 150px 0px 150px 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#register{
+    background-image: url(../img/registration.jpg);
+    height: 100%;
+    padding: 150px 0px 150px 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#register-form{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#contact ul{
+    list-style-type: none;
+}
+#contact iframe{
+    height: 300px;
+}

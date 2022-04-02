@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Teretanica za baticu</title>
+    <link rel="shortcut icon" href="" type="image/x-icon"/>
+
+    <!-- fontAwesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="NonstopFitness Logo" width="150" height="40">
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="treninzi.html">Trening</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="register.html">Registracija</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pretraži" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Pretraži</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main -->
+    <main>
+
+        <div id="faq" class="col-10 mx-auto d-flex justify-contact-around flex-wrap">
+            <h1 class="col-12 border-bottom pb-3 my-5">Najčešće postavljena pitanja naših korisnika</h1>
+            <div class="accordion col-12" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <strong>Koja je cena članarine?</strong>   
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        Standardna članarina je 2990 din, Studentska članarina je 2490 din (uz overen indeks ili đačku knjižicu), a Dnevna članarina je 2190 din (Pon-Pet 06-16h). Posebne pogodnosti nudimo za uplatu obnavljajućih članarina, kao i višemesečnih članarina (popust, mogućnost zamrzavanja članarine, plaćanje na rate)
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        <strong>Šta je obnavljajuća članarina? </strong>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        Obnavljajuća članarina je vrsta članarine gde se plaćanje automatski obavlja svakog meseca putem vaše kartice. Sredstva se skidaju sa vašeg računa i članarina vam se automatski produžava. Od standardne članarine se razlikuje samo po plaćanju, jer ste kod ove vrste članarine oslobođeni svake brige o plaćanju i razmišljanja do kada važi članarina – sve je automatizovano.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        <strong>Da li popust za obnavljajuću članarinu važi samo za prvi mesec ili sve vreme trajanja članarine?</strong>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        Popust koji ostvarite kada se prijavite za obnavljajuću članarinu važi neograničeno, sve dok ste član Non Stop Fitness-a, ili dok ne otkažete članarinu. Popust zadržavate i u slučaju da uzmete paket na 3, 6, ili 12 meseci, nakon isteka tog perioda.  
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          <strong>Da li popust za obnavljajuću članarinu važi samo za prvi mesec ili sve vreme trajanja članarine?</strong>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                      <div class="accordion-body">
+                          Popust koji ostvarite kada se prijavite za obnavljajuću članarinu važi neograničeno, sve dok ste član Non Stop Fitness-a, ili dok ne otkažete članarinu. Popust zadržavate i u slučaju da uzmete paket na 3, 6, ili 12 meseci, nakon isteka tog perioda.  
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          <strong>Da li mogu otkazati obnavljajuću članarinu? </strong>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            Obnavljajuću članarinu za 1 mesec možete otkazati kad god želite, ne postoji minimalni vremenski period koliko je morate koristiti. Otkazivanje je lako i vrši se preko Non Stop Fitness aplikacije ili lično na recepciji bilo kod fitnes centra.
+                            Pakete od 3, 6, i 12 meseci možete otkazati nakon isteka perioda od 3, 6, ili 12 meseci.
+                        </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+
+        <!-- Application -->
+        <div id="appplication" class="col-12 text-light d-flex justify-content-around flex-wrap my-5 py-5">
+            <div id="appplication-img" class="container col-12 col-md-4 position-relative">
+                <img class="img-fluid" src="assets/img/application-phone.jpg" alt="" >
+            </div>
+            <div class="container col-12 col-md-5 py-5 text-dark">
+                <h1 class="fw-bold border-bottom border-5 border-primary text-left pb-3">Non Stop Fitness aplikacija</h1>
+                <h5>Preuzmi našu aplikaciju za članove i pronađi sve potrebne informacije. Budi u kontaktu sa svojim klubom, aktuelnostima i rezerviši treninge u pokretu.</h5>
+                <div class="col-12 d-flex mt-4">
+                        <img class="img-fluid mx-2" src="assets/img/google-play.png" alt="Google Play">
+                        <img class="img-fluid" src="assets/img/app-store.png" alt="App Store">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer col-12 d-flex justify-content-around flex-wrap bg-dark mt-5">
+        <div class="col-10 d-flex flex-wrap justify-content-around">
+            <div class="col-sm-3 pt-5">
+                <h4 class="border-3 border-bottom border-light pb-2 text-light">Linkovi</h4>
+                <ul id="links" class="navbarMenu-ul navbar-nav container">
+                    <li class="nav-item px-3"><a href="https://ericstefan02.github.io/stefaneric.github.io/portfolio/" target="_blanc" class="nav-link text-light">Portfolio</a></li> 
+                    <li class="nav-item px-3"><a href="assets/js/main.js" target="_blanc" class="nav-link text-light">JavaScript</a></li>
+                    <li class="nav-item px-3"><a href="sitemap.xml" target="_blanc" class="nav-link text-light">Sitemap</a></li>
+                </ul> 
+            </div> 
+            <div class="col-sm-3 pt-5">
+                <h4 class="border-3 border-bottom border-light pb-2 text-light">Meni</h4>
+                <ul id="footer-meni-ul" class="navbarMenu-ul navbar-nav container d-inline">
+                    <li class="nav-item px-3"><a href="index.html" class="nav-link text-light">Početna</a></li>
+                    <li class="nav-item px-3"><a href="knjige.html" class="nav-link text-light">Knjige</a></li> 
+                    <li class="nav-item px-3"><a href="kontakt.html" class="nav-link text-light">Kontakt</a></li>
+                </ul> 
+            </div>   
+            <div class="col-sm-3 col-10 pt-5 text-center">
+                <h4 class="border-3 border-bottom border-light pb-2 text-light">Non Stop Fitness</h4>
+                <a href="index.html"><img class="img-fluid pt-4 pb-4" src="assets/img/logo.png" alt="NONSTOP logo"></a>  
+                <p class="cena">Đorđe Minić 135 / 19</p>
+            </div>
+        </div>
+
+        <div class="col-12 border-top border-secondary pt-2">
+            <p class="text-center text-light">© 2021 All rights reserved by Non Stop Fitness doo Beograd.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
