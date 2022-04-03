@@ -13,6 +13,12 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
+		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentar/register.html</loc> 
+		<lastmod>2022-03-29</lastmod>
+		<priority>0.92</priority> 
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
 		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentar/contact.html</loc>
 		<lastmod>2022-03-29</lastmod>
 		<priority>0.90</priority>
