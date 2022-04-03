@@ -4,21 +4,25 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Teretanica za baticu</title>
-    <link rel="shortcut icon" href="" type="image/x-icon"/>
+    <title>Registracija | Non Stop</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"/>
 
     <!-- bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
     
     <!-- css link -->
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/style.min.css"/>
+    
+    <!-- KEYWORDS & DESCRIPTION -->
+    <meta name="keywords" content="non stop, teretana, registrovanje, kupi članarinu online, kupi članarinu fitness, nalog, prijava"/>
+    <meta name="description" content="Postani član Non Stop Fitness brzo i lako, kupi članarinu online. Dođi da treniraš!"/>
 </head>
 <body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/img/logo.png" alt="NonstopFitness Logo" width="150" height="40">
               </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,20 +39,21 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="register.html">Registracija</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teretana.html">Teretana</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            Kontakt
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Kontakt informacije</a></li>
+                            <li><a class="dropdown-item" href="faq.html">Najčešća pitanja</a></li>
                         </ul>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Pretraži" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Pretraži" aria-label="Search"/>
                     <button class="btn btn-outline-warning" type="submit">Pretraži</button>
                 </form>
             </div>
@@ -66,50 +71,50 @@
                     <div class="form-row d-flex justify-content-around flex-wrap">
                         <div class="form-group my-2 col-12 col-lg-5">
                             <label for="firstName">Ime</label>
-                            <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp">
+                            <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp"/>
                             <div id="firstNameHelp" class="form-text">Ime mora početi velikim slovom.</div>
                         </div>
                         <div class="form-group my-2 col-12 col-lg-5">
                             <label for="inputLastName">Prezime</label>
-                            <input type="text" class="form-control" id="inputLastName"aria-describedby="lastNameHelp">
+                            <input type="text" class="form-control" id="inputLastName"aria-describedby="lastNameHelp"/>
                             <div id="lastNameHelp" class="form-text">Prezime mora početi velikim slovom.</div>
                         </div>
                     </div>
                     <div class="form-row d-flex justify-content-around flex-wrap">
                         <div class="form-group my-2 col-12 col-lg-5">
                             <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="inputEmail4" aria-describedby="emailHelp"/>
                         </div>
                         <div class="form-group my-2 col-12 col-lg-5">
                             <label for="inputPassword4">Lozinka</label>
-                            <input type="password" class="form-control" id="inputPassword4"aria-describedby="passwordHelp">
+                            <input type="password" class="form-control" id="inputPassword4"aria-describedby="passwordHelp"/>
                             <div id="passwordHelp" class="form-text">Lozinka mora sadržati velika i mala slova</div>
                         </div>
                     </div>
                     <div class="form-row d-flex justify-content-around flex-wrap">
                         <div class="form-group my-2 col-12 col-lg-11">
                             <label for="inputAddress">Adresa</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="Svetog Save 14">
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Svetog Save 14"/>
                         </div>
                     </div>
                     
                     <div class="form-row d-flex justify-content-around flex-wrap">
                         <div class="form-group my-2 col-12 col-lg-5">
                             <label for="inputCity">Grad</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Beograd">
+                            <input type="text" class="form-control" id="inputCity" placeholder="Beograd"/>
                         </div>
                         <div class="form-group my-2 col-12 col-lg-5">
                             <label for="inputState">Država</label>
                             <select id="inputState" class="form-control">
-                            <option selected>Izaberi...</option>
-                            <option value="1">Srbija</option>
-                            <option value="2">Crna Gora</option>
+                                <option selected>Izaberi...</option>
+                                <option value="1">Srbija</option>
+                                <option value="2">Crna Gora</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group my-2">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <input class="form-check-input" type="checkbox" id="gridCheck"/>
                             <label class="form-check-label" for="gridCheck">
                             Želim da primam obaveštenja na email
                             </label>
@@ -166,7 +171,7 @@
                 <h4 class="border-3 border-bottom border-light pb-2 text-light">Linkovi</h4>
                 <ul id="links" class="navbarMenu-ul navbar-nav container">
                     <li class="nav-item px-3"><a href="https://ericstefan02.github.io/stefaneric.github.io/portfolio/" target="_blanc" class="nav-link text-light">Portfolio</a></li> 
-                    <li class="nav-item px-3"><a href="assets/js/main.js" target="_blanc" class="nav-link text-light">JavaScript</a></li>
+                    <li class="nav-item px-3"><a href="assets/css/style.css" target="_blanc" class="nav-link text-light">CSS</a></li>
                     <li class="nav-item px-3"><a href="sitemap.xml" target="_blanc" class="nav-link text-light">Sitemap</a></li>
                 </ul> 
             </div> 
@@ -174,15 +179,14 @@
                 <h4 class="border-3 border-bottom border-light pb-2 text-light">Meni</h4>
                 <ul id="footer-meni-ul" class="navbarMenu-ul navbar-nav container d-inline">
                     <li class="nav-item px-3"><a href="index.html" class="nav-link text-light">Početna</a></li>
-                    <li class="nav-item px-3"><a href="knjige.html" class="nav-link text-light">Knjige</a></li> 
-                    <li class="nav-item px-3"><a href="kontakt.html" class="nav-link text-light">Kontakt</a></li> 
-                    <li class="nav-item px-3"><a href="autor.html" class="nav-link text-light">Autor</a></li>
+                    <li class="nav-item px-3"><a href="treninzi.html" class="nav-link text-light">Treninzi</a></li> 
+                    <li class="nav-item px-3"><a href="contact.html" class="nav-link text-light">Kontakt</a></li> 
+                    <li class="nav-item px-3"><a href="teretana.html" class="nav-link text-light">Teretana</a></li>
                 </ul> 
             </div>   
             <div class="col-sm-3 col-10 pt-5 text-center">
                 <h4 class="border-3 border-bottom border-light pb-2 text-light">Non Stop Fitness</h4>
-                <a href="index.html"><img class="img-fluid pt-4 pb-4" src="assets/img/logo.png" alt="NONSTOP logo"></a>  
-                <p class="cena">Đorđe Minić 135 / 19</p>
+                <a href="index.html"><img class="img-fluid pt-4 pb-4" src="assets/img/logo.png" alt="NONSTOP logo"/></a> 
             </div>
         </div>
 
