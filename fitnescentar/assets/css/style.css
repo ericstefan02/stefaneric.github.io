@@ -49,7 +49,7 @@
     background-repeat: no-repeat;
     background-position: top;
 }
-#cena{
+.cenaPokretna{
     background-image: url("../img/cena.jpeg");
     background-repeat: repeat-x;
     animation: flow 5s linear infinite;
@@ -106,7 +106,7 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 @media only screen and (max-width: 600px){
-    .table td, .table th{
-        padding: 0px;
+    .hTable, .dTable{
+        display: none;
     }
 }
