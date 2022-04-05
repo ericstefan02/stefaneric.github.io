@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0">
+    <channel>
+        <item>
+            <title>Uplata bonova za novi mesec</title>
+            <description>Krenuo je novi mesec i potrebno je uplatiti nove bonove za ishranu u menzi</description>
+            <link>https://rifatburdzevic.000webhostapp.com/pages/vestbonovi.html</link>
+        </item>
+        <item>
+            <title>Promena radnog vremena menze</title>
+            <description>Menza će se vratiti na staro radno vreme, doručak 7:30-9:30, ručak 11:00-15:00 i večera 17:00-20:30</description>
+            <link>https://rifatburdzevic.000webhostapp.com/pages/vestimenza.html</link>
+        </item>
+        <item>
+            <title>Obaveštenje o kaznama za nenošenje maski</title>
+            <description>Kazne za nenošenje maski se pooštravaju i mogu voditi do isključenja iz doma</description>
+            <link>https://rifatburdzevic.000webhostapp.com/pages/vestimaske.html</link>
+        </item>
+        <item>
+            <title>Obaveštenje o novom cenovniku teretane</title>
+            <description>Teretana će od ove godine biti besplatna za sve studente našeg doma, a za ostale studente sa karticama 500 dinara za pola meseca, 1000 za ceo</description>
+            <link>https://rifatburdzevic.000webhostapp.com/pages/vestiteretana.html</link>
+        </item>
+        <item>
+            <title>Obaveštenje o ponovnom radu studentskog kluba</title>
+            <description>Od 28.12.2021. studentski klub će ponovo krenuti sa radom</description>
+            <link>https://rifatburdzevic.000webhostapp.com/pages/vestiklub.html</link>
+        </item>
+    </channel>
+    </rss>

@@ -1,0 +1,585 @@
+/*Osnovno stilizovanje*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.cleaner
+{
+    clear: both;
+}
+@font-face {
+    font-family: mainFont;
+    src: url("../fonts/static/OpenSans/OpenSans-Regular.ttf");
+}
+body
+{
+    font-family: mainFont;
+}
+/*Kraj osnovnog stilizovanja*/
+/*animacija*/
+@keyframes fadein
+{
+    from    {opacity: 0;}
+    to  {opacity: 1;}
+}
+/*Header stilizovanje*/
+header
+{
+    height: 25px;
+    background-color: #232d7d;
+}
+header a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.centerDiv
+{
+    margin: 0px auto;
+    width: 1300px;
+}
+header .centerDiv #tel
+{
+    float: left;
+}
+header .centerDiv #location
+{
+    float: right;
+}
+header .centerDiv #location i, header .centerDiv #tel i
+{
+    margin-right: 8px;
+}
+/*Kraj header stilizovanja*/
+/*Stilizovanje div-a sa menijem*/
+#ogheader
+{
+    border-bottom: 2px solid #232d7d;
+}
+#logoDiv
+{
+    float: left;
+}
+#logoDiv img
+{
+    height: 80px;
+    margin: 8px 0px;
+}
+#mainHeading
+{
+    float: left;
+    margin-left: 60px;
+}
+#mainHeading h1
+{
+    margin-top: 30px;
+    color: #232d7d;
+}
+#menu
+{
+    float: right;
+}
+#menu ul
+{
+    margin-top: 38.4px;
+    list-style-type: none;
+
+}
+#menu ul li
+{
+    font-size: 18px;
+    display: inline;
+    margin-left: 18px;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    color: #232d7d;
+}
+#menu .active a
+{
+    color: #db271d;
+}
+#menu a:hover
+{
+    color: #db271d;
+    border-bottom: 2px solid #232d7d;
+    transition: color 0.4s;
+}
+/*Kraj stilizovanja div-a sa menijem*/
+/*Stilizovanje div-a sa slikom*/
+#picture
+{
+    height: 700px;
+    background:url(../img/bck.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #232d7d;
+}
+#over
+{
+    animation: fadein 0.6s;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    background: rgba(35, 47, 123, 0.8);
+    text-align: center;
+    color: #fff;
+    font-size: 125%;
+}
+#over h2
+{
+    margin-top: 134.8px;
+    margin-bottom: 20px;
+}
+#over a
+{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 2px 10px;
+    border-radius: 7px;
+
+}
+#over a:hover
+{
+    color:#232d7d ;
+    background: #fff;
+    transition: 0.5s;
+}
+/*Kraj stilizovanja div-a sa slikom*/
+/*Stilizovanje div-a sa razlozima upisa*/
+#reasons .heading
+{
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 120%;
+}
+#reasons .reasonsCnt
+{
+    width: 380px;
+    border: 1px solid #232d7d;
+    border-radius: 15px;
+    background-color: #232d7d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+}
+#reasons .reasonsCnt h3
+{
+    font-size: 28px;
+    color: #db271d;
+}
+#reasons .reasonsCnt h3 i
+{
+    margin-right: 10px;
+}
+#reasons .reasonsCnt h3, p
+{
+    margin: 10px 0px;
+}
+#reasons p
+{
+    margin-bottom: 20px;
+}
+#reasons .reasonsCnt a
+{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+#reasons .reasonsCnt a:hover
+{
+    color:#232d7d ;
+    background: #fff;
+    transition: 0.5s;
+}
+.flt-left
+{
+    float: left;
+}
+.flt-right
+{
+    float: right;
+}
+.cnt 
+{
+    float: left;
+    margin-left: 47px;
+    margin-right: 47px;
+}
+/*Kraj stilizovanja div-a sa razlozima upisa*/
+/*Stilizovanje div-a sa obavestenjima i formom*/
+#formMes
+{
+    margin-top: 50px;
+}
+#rss-header i
+{
+    margin-right: 10px;
+    font-size: 22px;
+}
+#rss-header a
+{
+    color: #232d7d;
+}
+#rss-header a:hover
+{
+    color: #f56320;
+    transition: 0.3s;
+}
+#notification h3
+{
+    margin-bottom: 10px;   
+}
+#notification
+{
+    border: 5px solid #232d7d;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 63.9px;
+}
+#notification ul
+{
+    list-style-type: none;
+}
+#notification ul li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #232d7d;
+    border-bottom: 1px dotted #232d7d;
+}
+#notification ul li a:hover
+{
+    color: #db271d;
+    transition: 0.3s;
+}
+#notification ul li
+{
+    margin-top: 5px;
+}
+#withForm
+{
+    width: 650px;
+    border: 5px solid #232d7d;
+    border-radius: 20px;
+    padding: 10px;
+}
+#withForm form
+{
+    padding: 10px;
+}
+#withForm form input
+{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #db271d;
+    font-size: 18px;
+}
+#withForm form input:focus
+{
+    outline: none;
+    border: 2px solid #232d7d;
+    border-radius: 2px;
+}
+#withForm form textarea
+{
+    margin-top: 5px;
+    width: 100%;
+    resize: none;
+    border: 2px solid #db271d;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 5px;
+}
+#withForm form textarea:focus
+{
+    outline: none;
+    border: 2px solid #232d7d;
+    border-radius: 6px;
+}
+#withForm form label
+{
+    font-size: 18px;
+    color: #232d7d;
+}
+#withForm form input[type="submit"]
+{
+    margin-top: 4px;
+    border: 3px solid #232d7d;
+    background-color: #232d7d;
+    padding: 10px 0px;
+    color: white;
+    border-radius: 5px;
+}
+#withForm form input[type="submit"]:hover
+{
+    background-color: #fff;
+    color: #232d7d;
+    transition: 0.3s;
+}
+#withForm h3
+{
+    text-align: center;
+}
+/*Kraj stilizovanja div-a sa obavestenjima i formom*/
+/*Stilizovanje footer-a*/
+footer
+{
+    color: #fff;
+    height: 60px;
+    background-color: #232d7d;
+    margin-top: 20px;
+}
+footer .centerDiv .flt-right ul a
+{
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+footer .centerDiv .flt-right ul a:hover
+{
+    color: #db271d;
+    transition: 0.2s;
+}
+#social
+{
+    list-style-type: none;
+}
+#social li
+{
+    display: inline;
+    margin-left: 15px;
+}
+footer .centerDiv .flt-left
+{
+    margin-top: 10px;
+}
+footer .centerDiv .flt-right 
+{
+    margin-top: 14.8px;
+}
+/*Kraj stilizovanja footer-a*/
+/*Stilizovanje strane kontakt*/
+#contactDiv
+{
+    padding: 10px 0px;
+    margin: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#contactPic img
+{
+    height: 400px;
+    border-radius: 20px;
+    border: 5px solid #232d7d;
+}
+#contacts ul
+{
+    list-style-type: none;
+    padding: 40px;
+    border-radius: 10px;
+    border: 4px solid #232d7d;
+}
+#contacts ul li
+{
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 4px solid #db271d;
+    color: #232d7d;
+    font-size: 24px;
+}
+.contactItem
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contactItem i
+{
+    margin-right: 10px;
+    font-size: 36px;
+}
+/*Kraj stilizovanja strane kontakt*/
+/*Stilizovanje strane autor*/
+#authorcnt
+{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #232d7d;
+    animation: fadein 0.7s;
+}
+#authorpic img
+{
+    height: 700px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+#authortxt
+{
+    border: 3px solid #232d7d;
+    border-radius: 10px;
+    padding: 10px;
+}
+#authortxt h2, #abouttxt h2
+{
+    color: #db271d;
+}
+/*Kraj stilizovanja strane kontakt*/
+/*Stilizovanje strane o Rifatu*/
+#abouttxt
+{   
+    color: #232d7d;
+    margin: 20px 0px;
+    text-align: center;
+}
+#abouttxt p
+{
+    font-size: 18px;
+}
+#aboutimgs
+{
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#aboutimgs img
+{
+    width: 450px;
+    border: 1px solid #232d7d;
+    border-radius: 5px;
+}
+#opinions
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.opinion
+{
+    text-align: center;
+    margin: 10px;
+}
+.opinion i
+{
+    font-size: 120px;
+    color: #232d7d;
+}
+#centerOp h2
+{
+    text-align: center;
+    color: #db271d;
+    padding: 10px;
+}
+#centerOp hr
+{
+    color: #232d7d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.accname
+{
+    color: #db271d;
+    font-size: 18px;
+}
+.accopinion
+{
+    color: #232d7d;
+    font-size: 20px;
+    font-style: italic;
+}
+/*Kraj stilizovanja strane kontakt*/
+/*Stilizovanje strane sa galerijama*/
+#centergalery h2
+{
+    text-align: center;
+    color: #232d7d;
+    font-size: 24px;
+    margin: 20px;
+}
+#galeryicons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.galeryicon
+{
+    text-align: center;
+    margin: 50px 0px;
+}
+.galeryicon a
+{
+    text-decoration: none;
+    color: #232d7d;
+    font-size: 300px;
+}
+.galeryicon a:hover
+{
+    font-size: 320px;
+    transition: 0.6s;
+}
+.galeryicon p
+{
+    font-size: 30px;
+    color: #db271d;
+}
+/*Kraj stilizovanja strane sa galerijama*/
+/*Stilizovanje strana galerija*/
+.pictures
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.pictures img
+{
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 400px;
+}
+.pictures img:hover
+{
+    height: 420px;
+    transition: 0.5s;
+}
+/*Kraj stilizovanja strana galerija*/
+/*Stilizovanje strana sa vestima*/
+.article
+{
+    display: flex;
+    align-items: center;
+    margin: 60px 0px;
+    justify-content: space-around;
+}
+.article img
+{
+    height: 500px;
+    border-radius: 10px;
+}
+.article p
+{
+    font-size: 28px;
+    width: 400px;
+    padding: 20px;
+    border: 3px solid #232d7d;
+    color: #232d7d;
+    border-radius: 10px;
+}
+/*Kraj stilizovanja strana sa vestima*/
