@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kontakt informacije | Non Stop</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"/>
+
+    <!-- fontAwesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"/>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+   
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.min.css"/>
+
+    <!-- KEYWORDS & DESCRIPTION -->
+    <meta name="keywords" content="non stop, teretana, trening, kontakt, prijava, lokacija"/>
+    <meta name="description" content="Možete nas pronaći na više lokacija: Rudnička 1 +381 11 40 95 284, Dimitrija Tucovića 32 +381 11 403 95 36, Vojvode Micka Krstića 1 +381 11 403 12 55, Živka Davidovića 86 +381 11 630 43 02"/>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" alt="NonstopFitness Logo" width="150" height="40"/>
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="treninzi.html">Trening</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Registracija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teretana.html">Teretana</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kontakt
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="contact.html">Kontakt informacije</a></li>
+                            <li><a class="dropdown-item" href="faq.html">Najčešća pitanja</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pretraži" aria-label="Search"/>
+                    <button class="btn btn-outline-warning" type="submit">Pretraži</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main -->
+    <main>
+
+        <div id="contact" class="col-10 mx-auto d-flex justify-contact-around flex-wrap">
+            <!-- form -->
+            <div class="mx-auto col-9 col-md-5 my-5">
+                <h1 class="col-12 pb-3 border-bottom">Piši nam za više informacija</h1>
+                <form action="#" method="POST" class=" my-5">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Ime i prezime</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Novak Đoković">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email adresa</label>
+                        <input type="email" class="form-control" id="email" placeholder="novakdjkokovic@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Tekst poruke</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <!-- informations -->
+            <div class="col-9 col-md-4 py-5 text-center mx-auto">
+                <h1 class="col-12 pb-3 border-bottom">Kako do nas</h1>
+                <div class="col-12">
+                    <ul class="p-0">
+                        <li class="py-3">
+                            <i class="fas fa-location-arrow"></i>&nbsp;&nbsp;Rudnička 1, Beograd
+                        </li>
+                        <li class="py-3">
+                            <span class="mr-4 fas fa-map-marked-alt"></span>&nbsp;&nbsp;Milana Rakića 77, Beograd
+                        </li>
+                        <li class="py-3">
+                            <span class=" mr-4 far fa-clock"></span>&nbsp;&nbsp;06:00 do 23:00
+                        </li>
+                        <li class="py-3">
+                            <span class=" fas fa-phone mr-3"></span>&nbsp;&nbsp;<a class=" text-dark" href="tel:+38114095284">+381 11 40 95 284</a>
+                        </li>
+                        <li class="py-3">
+                            <span class=" fas fa-envelope mr-3"></span>&nbsp;&nbsp;<a class=" text-dark" href="mailto:info@nonstopfitness.rs">info@nonstopfitness.rs</a>
+                        </li>
+                    </ul>   
+                </div>
+            </div>
+
+            <!-- maps -->
+            <div class="col-10 text-center mx-auto">
+                <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.416245028311!2d20.464857815535073!3d44.792705079098695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a706d49a8565b%3A0xf7f927d0da78c65d!2z0KDRg9C00L3QuNGH0LrQsCAxLCDQkdC10L7Qs9GA0LDQtCAxMTAwMA!5e0!3m2!1ssr!2srs!4v1648925767707!5m2!1ssr!2srs" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer col-12 d-flex justify-content-around flex-wrap bg-dark mt-5">
+        <div class="col-10 d-flex flex-wrap justify-content-around">
+            <div class="col-sm-3 pt-5">
+                <h4 class="border-3 border-bottom border-light pb-2 text-light">Linkovi</h4>
+                <ul id="links" class="navbarMenu-ul navbar-nav container">
+                    <li class="nav-item px-3"><a href="https://ericstefan02.github.io/stefaneric.github.io/portfolio/" target="_blank" class="nav-link text-light">Portfolio</a></li> 
+                    <li class="nav-item px-3"><a href="assets/css/style.css" target="_blank" class="nav-link text-light">CSS</a></li>
+                    <li class="nav-item px-3"><a href="sitemap.xml" target="_blank" class="nav-link text-light">Sitemap</a></li>
+                </ul> 
+            </div> 
+            <div class="col-sm-3 pt-5">
+                <h4 class="border-3 border-bottom border-light pb-2 text-light">Meni</h4>
+                <ul id="footer-meni-ul" class="navbarMenu-ul navbar-nav container d-inline">
+                    <li class="nav-item px-3"><a href="index.html" class="nav-link text-light">Početna</a></li>
+                    <li class="nav-item px-3"><a href="treninzi.html" class="nav-link text-light">Treninzi</a></li> 
+                    <li class="nav-item px-3"><a href="contact.html" class="nav-link text-light">Kontakt</a></li>
+                    <li class="nav-item px-3"><a href="teretana.html" class="nav-link text-light">Teretana</a></li>
+                </ul> 
+            </div>   
+            <div class="col-sm-3 col-10 pt-5 text-center">
+                <h4 class="border-3 border-bottom border-light pb-2 text-light">Non Stop Fitness</h4>
+                <a href="index.html"><img class="img-fluid pt-4 pb-4" src="assets/img/logo.png" alt="NONSTOP logo"/></a>
+            </div>
+        </div>
+
+        <div class="col-12 border-top border-secondary pt-2">
+            <p class="text-center text-light">© 2021 All rights reserved by Non Stop Fitness doo Beograd.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
