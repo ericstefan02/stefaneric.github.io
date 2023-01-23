@@ -8,6 +8,11 @@
 .bg-blue{
     background-color: #0083CB;
 }
+#formMessage, #modalMessage, #sendingMessage{
+   font-size: 18px;
+   font-weight: bold;
+   display: none;
+}
 .cover{
     background-image: url(../img/zenska_zona_cover.jpg);
     height: 100%;
