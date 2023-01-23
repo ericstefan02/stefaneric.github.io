@@ -8,6 +8,14 @@
 .bg-blue{
     background-color: #0083CB;
 }
+.zebra{
+    background-color: #0083CB;
+    color: aliceblue;
+    border-radius: 3px;
+}
+.zebra a{
+    color: aliceblue;
+}
 #formMessage, #modalMessage, #sendingMessage{
    font-size: 18px;
    font-weight: bold;

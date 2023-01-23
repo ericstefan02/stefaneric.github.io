@@ -313,16 +313,16 @@ if((window.location.pathname).includes("contact")){
     var emailReg = /^[\w\.]+@[a-zA-Z_]+?(\.[a-zA-Z]{2,3})+$/;
     var nameAndLastNameReg = /^([A-ZČĆŠŽĐ][a-zčćšžđ]+)\s+([A-ZČĆŠŽĐ][a-zčćšžđ]+(\s)*)+$/;
     var classes = ["fas fa-location-arrow", "mr-4 fas fa-map-marked-alt", " mr-4 far fa-clock", " fas fa-phone mr-3", " fas fa-envelope mr-3"];
-    var cnt = ["Rudnička 1, Beograd","Milana Rakića 77, Beograd", "06:00 do 23:00", '<a class=" text-dark" href="tel:+38114095284">+381 11 40 95 284</a>', '<a class=" text-dark" href="mailto:info@nonstopfitness.rs">info@nonstopfitness.rs</a>'];
+    var cnt = ["Rudnička 1, Beograd","Milana Rakića 77, Beograd", "06:00 do 23:00", '<a class=" text-dark" href="tel:+38114095284">+381 11 40 95 284</a>', '<a href="mailto:info@nonstopfitness.rs">info@nonstopfitness.rs</a>'];
     var txt = '<ul class="p-0">';
     for(var i = 0;i<classes.length;i++){
-        txt+=`<li class="py-3">
+        txt+=`<li class="py-3 cntLi">
                 <span class="${classes[i]}"></span>&nbsp;&nbsp;${cnt[i]};
                 </li>`
     }
     txt += '</ul>'
     document.getElementById("contactInfo").innerHTML+=txt;
-
+    $('.cntLi:even').addClass("zebra");
     var max = 300;
     $('#message').keydown(function(e) {
         if(e.which==8){
