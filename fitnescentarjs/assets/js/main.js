@@ -107,7 +107,7 @@ if((window.location.pathname).includes("treninzi")){
     var txt = "";
     for(var i = 0;i<treningIds.length;i++){
          txt += `<div id="${treningIds[i]}" class="card col-lg-3 col-sm-5 col-8 my-4 mx-1">
-                    <img src="${treningImgSrcs[i]}" class="card-img-top img-fluid" alt="${treningImgAltsAndHeaders[i]}">
+                    <img src="${treningImgSrcs[i]}" class="card-img-top img-fluid" alt="${treningImgAltsAndHeaders[i]}"/>
                     <div class="card-body">
                         <h3 class="card-title">${treningImgAltsAndHeaders[i]}</h3>
                         <p class="card-text">${treningTxt[i]}</p>
@@ -121,7 +121,7 @@ if((window.location.pathname).includes("treninzi")){
                     };
         txt +=`</div>`;
         txt+=`<div class="card-footer text-muted">
-                <i class="fa fa-clock"></i><p class="d-inline mx-1">${treningLength[i]} min</p>
+                <i class="fa fa-clock"></i><p class="d-inline mx-1"/>${treningLength[i]} min</p>
             </div> 
                 </div>`
 
@@ -277,6 +277,7 @@ if((window.location.pathname).includes("register")){
 
         var exampleEmail = "user@gmail.com";
         var examplePassword = "password123#";
+        //ovde dve promenljive su dodate samo za simulaciju korisnika koji postoji u bazi
         if($("#exampleInputEmail1").val()!=exampleEmail||$("#exampleInputPassword1").val()!=examplePassword){
             $("#modalMessage").html(`<p>Ne postoji ovakav registrovani korisnik!</p>`);
             $("#modalMessage").show("fast");
