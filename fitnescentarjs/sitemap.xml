@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentar/index.html</loc>
-		<lastmod>2022-04-03</lastmod>
+		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentarjs/index.html</loc>
+		<lastmod>2022-01-24</lastmod>
 		<priority>1.00</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentar/treninzi.html</loc> 
-		<lastmod>2022-03-29</lastmod>
+		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentarjs/treninzi.html</loc> 
+		<lastmod>2022-01-24</lastmod>
 		<priority>0.95</priority> 
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentar/register.html</loc> 
-		<lastmod>2022-03-29</lastmod>
+		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentarjs/register.html</loc> 
+		<lastmod>2022-01-24</lastmod>
 		<priority>0.92</priority> 
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentar/contact.html</loc>
-		<lastmod>2022-03-29</lastmod>
+		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentarjs/contact.html</loc>
+		<lastmod>2022-01-24</lastmod>
 		<priority>0.90</priority>
 		<changefreq>weekly</changefreq>
-	</url>
-	<url>
-		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentar/teretana.html</loc>
-		<lastmod>2022-03-29</lastmod>
-		<priority>0.85</priority>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://ericstefan02.github.io/stefaneric.github.io/fitnescentar/faq.html</loc>
-		<lastmod>2022-03-29</lastmod>
-		<priority>0.80</priority>
-		<changefreq>yearly</changefreq>
 	</url>
 </urlset>
