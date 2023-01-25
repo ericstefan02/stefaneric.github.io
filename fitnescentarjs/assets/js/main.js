@@ -2,7 +2,7 @@ var pages = ["index.html","treninzi.html", "contact.html", "register.html", "Dok
 var pageLabels = ["Početna", "Trening", "Kontakt", "Registracija","Dokumentacija", "O autoru"];
 var menu = document.getElementById("navMenu");
 var links = ["Portfolio","CSS", "JS", "Sitemap"];
-var linkValues = ["https://ericstefan02.github.io/stefaneric.github.io/portfolio/","/assets/css/style.css", "/assets/js/main.js", "sitemap.xml"];
+var linkValues = ["https://ericstefan02.github.io/stefaneric.github.io/portfolio/","assets/css/style.css", "assets/js/main.js", "sitemap.xml"];
 var footObjs = ["Linkovi", "Meni"];
 var footer = document.getElementById("foot");
 var ftCnt = document.getElementById("footCnt");
@@ -68,7 +68,7 @@ var sliderTxt = `<ul class="slides">`
 for(var i = 0;i<slidePictures.length;i++)
 {
     sliderTxt+=`<li>
-            <img src="/assets/img/${slidePictures[i]}" alt="${slidePicturesAlt[i]}" />
+            <img src="assets/img/${slidePictures[i]}" alt="${slidePicturesAlt[i]}" />
             </li>`
 }
 sliderTxt+=`</ul>`
