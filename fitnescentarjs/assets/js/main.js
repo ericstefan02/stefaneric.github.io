@@ -1,5 +1,5 @@
-var pages = ["index.html","treninzi.html", "register.html", "contact.html", "linkzadokumentaciju", "https://ericstefan02.github.io/stefaneric.github.io/portfolio/"];
-var pageLabels = ["Početna", "Trening", "Registracija", "Kontakt","Dokumentacija", "O autoru"];
+var pages = ["index.html","treninzi.html", "contact.html", "register.html", "Dokumentacija.pdf", "author.html"];
+var pageLabels = ["Početna", "Trening", "Kontakt", "Registracija","Dokumentacija", "O autoru"];
 var menu = document.getElementById("navMenu");
 var links = ["Portfolio","CSS", "JS", "Sitemap"];
 var linkValues = ["https://ericstefan02.github.io/stefaneric.github.io/portfolio/","/assets/css/style.css", "/assets/js/main.js", "sitemap.xml"];
@@ -53,7 +53,7 @@ function ispisiFooter(){
     footer.innerHTML+=pageLink;
     footer.innerHTML+=rights;
 }
-if((window.location.pathname).includes("index")){
+if((window.location.pathname).includes("index")||!((window.location.pathname).includes(".html"))){
     var slidePictures = ["kardio_zona_cover.jpeg", "treninzi-cover.jpeg", "mix_zona_cover.jpeg"];
     var slidePicturesAlt = ["cardio picture", "training picture", "mixed training picture"];
     var types = ["Standard", "Student", "Dnevna"];
@@ -318,7 +318,7 @@ if((window.location.pathname).includes("contact")){
     var txt = '<ul class="p-0">';
     for(var i = 0;i<classes.length;i++){
         txt+=`<li class="py-3 cntLi">
-                <span class="${classes[i]}"></span>&nbsp;&nbsp;${cnt[i]};
+                <span class="${classes[i]}"></span>&nbsp;&nbsp;${cnt[i]}
                 </li>`
     }
     txt += '</ul>'
@@ -395,6 +395,24 @@ if((window.location.pathname).includes("contact")){
     }
 
     document.getElementById("emailButton").addEventListener("click", proveraPoruke);
+}
+if((window.location.pathname).includes("author")){
+    var classes = ["fa fa-graduation-cap", "mr-4 fa fa-book", "fa fa-id-card", "fa fa-code", "fa fa-gamepad",  " fas fa-phone mr-3", " fas fa-envelope mr-3"];
+    var cnt = ['Završio Elektrotehničku školu "Nikola Tesla" u Beogradu, 2021. godine',"Trenutno studiram na Visokoj ICT", "Broj indeksa - 4/21","Imam ljubav prema programiranju, posebno prema C# jeziku", "Od hobija volim igranje igrica, teretanu kao i učestvovanje u pub kvizovima znanja",  '<a class=" text-dark" href="tel:+381637621700">+381 63 76 21 700</a>', '<a href="mailto:stefan.eric.4.21@gmail.ict.edu.rs">stefan.eric.4.21@gmail.ict.edu.rs</a>'];
+    var txt = '<ul class="p-0" id="authorList">';
+    for(var i = 0;i<classes.length;i++){
+        txt+=`<li class="py-3 cntLi">
+                <span class="${classes[i]}"></span>&nbsp;&nbsp;${cnt[i]}
+                </li>`
+    }
+    txt += '</ul>'
+    txt += '<a class="btn btn-primary mt-2" target="_blank" href="https://ericstefan02.github.io/stefaneric.github.io/portfolio/" role="button">Moj portfolio za više informacija</a>'
+    document.getElementById("authorInfo").innerHTML+=txt;
+    document.getElementById("authorList").style.listStyleType = "none";
+    $('.cntLi:even').addClass("zebra");
+    ispisiHeader();
+    ispisiFooter();
+    
 }
 
 
