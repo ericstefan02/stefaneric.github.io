@@ -1,0 +1,103 @@
+[
+    {
+        "id":1,
+        "name":"Protein Whey",
+        "description":"Supplement that helps you to build more muscle because it makes your recover faster",
+        "price":{
+            "oldPrice":"7990",
+            "newPrice":"5000"
+        },
+        "categoryId":1,
+        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "img":{
+            "src":"assets/img/shop/1.jpg",
+            "alt":"Picture of whey protein"
+        },
+        "available":true
+    },
+    {
+        "id":2,
+        "name":"AA Whey",
+        "description":"Supplement that helps you to build more muscle because it makes your recover faster",
+        "price":{
+            "oldPrice":"7990",
+            "newPrice":"2000"
+        },
+        "categoryId":2,
+        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "img":{
+            "src":"assets/img/shop/2.jpg",
+            "alt":"Picture of whey protein"
+        },
+        "available":true
+
+    },
+    {
+        "id":3,
+        "name":"BB Whey",
+        "description":"Supplement that helps you to build more muscle because it makes your recover faster",
+        "price":{
+            "oldPrice":"7990",
+            "newPrice":"3000"
+        },
+        "categoryId":1,
+        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "img":{
+            "src":"assets/img/shop/3.jpg",
+            "alt":"Picture of whey protein"
+        },
+        "available":false
+
+    },
+    {
+        "id":4,
+        "name":"Protein Whey",
+        "description":"Supplement that helps you to build more muscle because it makes your recover faster",
+        "price":{
+            "oldPrice":"7990",
+            "newPrice":"6790"
+        },
+        "categoryId":3,
+        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "img":{
+            "src":"assets/img/shop/4.jpg",
+            "alt":"Picture of whey protein"
+        },
+        "available":true
+
+    },
+    {
+        "id":5,
+        "name":"Protein Whey",
+        "description":"Supplement that helps you to build more muscle because it makes your recover faster",
+        "price":{
+            "oldPrice":"7990",
+            "newPrice":"6790"
+        },
+        "categoryId":4,
+        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "img":{
+            "src":"assets/img/shop/5.jpg",
+            "alt":"Picture of whey protein"
+        },
+        "available":false
+
+    },
+    {
+        "id":6,
+        "name":"Protein Whey",
+        "description":"Supplement that helps you to build more muscle because it makes your recover faster",
+        "price":{
+            "oldPrice":"7990",
+            "newPrice":"6790"
+        },
+        "categoryId":5,
+        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "img":{
+            "src":"assets/img/shop/6.jpg",
+            "alt":"Picture of whey protein"
+        },
+        "available":false
+
+    }
+]

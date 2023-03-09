@@ -52,7 +52,8 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #0e141a;
+ 
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -100,7 +101,8 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #080e14;
+    box-shadow: 0 0 10px 0 #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -237,7 +239,7 @@ header.masthead .container .btn {
 }
 .shop-modal .modal-content p.item-intro {
   font-style: italic;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .shop-modal .modal-content p {
@@ -540,4 +542,49 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: bold;
   letter-spacing: -1px;
 }
+.shop-modal button:hover{
+  color: #fff !important;
+  background-color: #000 !important; 
+}
+.state{
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+}
+#filters h5{
+  margin-bottom: 1rem;
+}
+.form-range{
+  margin-bottom: 3rem;
+}
 
+
+
+
+
+/* CART */
+
+.content-bg{
+  /* background-color: #ddd !important; */
+  background-color: white;
+}
+
+#cartModal{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+}
+.cart-item{
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.05) inset;
+}
+#cartModal p,.cart-item img{
+  margin-bottom: 0 !important;
+}
+
+.cart-item input.form-control{
+  width: 40%;
+}
+
+
+.modal-xl{
+  --bs-modal-width:80vw !important;
+}
