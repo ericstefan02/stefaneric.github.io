@@ -8,7 +8,8 @@
             "newPrice":"5000"
         },
         "categoryId":1,
-        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "brandId":1,
+        "flavoursIds":[1, 2, 3],
         "img":{
             "src":"assets/img/shop/1.jpg",
             "alt":"Picture of whey protein"
@@ -24,7 +25,8 @@
             "newPrice":"2000"
         },
         "categoryId":2,
-        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "brandId":3,
+        "flavoursIds":[1, 2, 3],
         "img":{
             "src":"assets/img/shop/2.jpg",
             "alt":"Picture of whey protein"
@@ -41,7 +43,8 @@
             "newPrice":"3000"
         },
         "categoryId":1,
-        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "brandId":2,
+        "flavoursIds":[1, 2],
         "img":{
             "src":"assets/img/shop/3.jpg",
             "alt":"Picture of whey protein"
@@ -58,7 +61,8 @@
             "newPrice":"6790"
         },
         "categoryId":3,
-        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "brandId":4,
+        "flavoursIds":[1],
         "img":{
             "src":"assets/img/shop/4.jpg",
             "alt":"Picture of whey protein"
@@ -75,7 +79,8 @@
             "newPrice":"6790"
         },
         "categoryId":4,
-        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "brandId":1,
+        "flavoursIds":[1, 2, 3],
         "img":{
             "src":"assets/img/shop/5.jpg",
             "alt":"Picture of whey protein"
@@ -92,7 +97,8 @@
             "newPrice":"6790"
         },
         "categoryId":5,
-        "flavours":["Chocolate", "Vanila", "Strawberry"],
+        "brandId":1,
+        "flavoursIds":[1, 2, 3],
         "img":{
             "src":"assets/img/shop/6.jpg",
             "alt":"Picture of whey protein"

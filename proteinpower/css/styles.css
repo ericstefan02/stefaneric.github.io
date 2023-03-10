@@ -536,8 +536,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 #cart-num-items span{
-  margin-top:-15%;
-  margin-left:-10%;
+margin-top: -1px;
+margin-left: -1px;
   font-size: small;
   font-weight: bold;
   letter-spacing: -1px;
