@@ -138,7 +138,7 @@ function isAvailableButton(checker, id) {
   if (checker) {
     cnt += `<button class="btn btn-outline-light text-uppercase rounded-0 text-black border-dark my-1 cart-button-success buttonShop" data-id="${id}">Add to cart <i class="fa-solid fa-bag-shopping fs-5 mx-1"></i></button>       `;
   } else {
-    cnt += `<button class="btn btn-outline-light text-uppercase rounded-0 text-black border-dark my-1 cart-button-fail">Not available <i class="fa-solid fa-x fs-5 mx-1"></i></button>        `;
+    cnt += `<button class="btn btn-outline-light text-uppercase rounded-0 text-black border-dark my-1 cart-button-fail buttonShopFailed">Not available <i class="fa-solid fa-x fs-5 mx-1"></i></button>        `;
   }
   return cnt;
 }
@@ -340,9 +340,22 @@ window.addEventListener("load", (event) => {
   }
   var buttons = document.querySelectorAll(".buttonShop");
   for (var i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener("click", proba);
+    buttons[i].addEventListener("click", shopping);
   }
-  function proba() {
-    var id = $(this).data("id");
+  var buttonsFail = document.querySelectorAll(".buttonShopFailed");
+  for (var i = 0; i < buttonsFail.length; i++) {
+    buttonsFail[i].addEventListener("click", cantShop);
+  }
+  localStorage.setItem("productsInCart", JSON.stringify([]));
+  function shopping() {
+    alert("Product added to cart")
+    var id = $(this).data('id');
+    var productsInCart = JSON.parse(localStorage.getItem("productsInCart"));
+    productsInCart.push(allProducts.filter(p=>p.id==id));
+    localStorage.setItem("productsInCart", JSON.stringify(productsInCart));
+    console.log(productsInCart);
+  }
+  function cantShop(){
+    alert("We will get product ASAP");
   }
 });

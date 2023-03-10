@@ -383,14 +383,14 @@
         <div class="modal-dialog modal-xl modal-fullscreen-md-down">
             <div class="modal-content bg-light text-start">
                 <div class="w-100 text-center">
-                    <h2 class="mb-4 text-uppercase">Korpa</h2>
+                    <h2 class="mb-4 text-uppercase">Cart</h2>
                 </div>
                 <div class="close-modal position-absolute" data-bs-dismiss="modal"><i class="fa-solid fa-xl fa-x"></i>
                 </div>
 
                 <div class="row justify-content-evenly px-3 px-sm-0">
                     <div class=" col-sm-12 col-md-7 mb-4 mb-md-0 rounded-3 p-4 content-bg">
-                        <h3 class="mb-0">Artikli u korpi:</h3>
+                        <h3 class="mb-0">Articles in the cart:</h3>
                         <hr class="w-50 mt-2">
                         <div class="container-xl cart-item rounded-3 py-2 mb-1 ">
                             <div class="row align-items-center">
@@ -398,10 +398,10 @@
                                         alt="">
                                 </div>
                                 <div class=" col-9 col-lg-4 ">
-                                    <p class="lh-1">OVDE IDE NAZIV NEKOG PROIZVODA</p>
+                                    <p class="lh-1" id="cartProductName">OVDE IDE NAZIV NEKOG PROIZVODA</p>
                                 </div>
                                 <div class="col-12 col-lg-5 align-items-center d-flex justify-content-end">
-                                    <input type="number" class="form-control mx-4 mx-lg-0" name="" id="">
+                                    <input type="number" class="form-control mx-4 mx-lg-0" name="quantity" id="quantity">
                                     <p>21000 RSD</p>
                                 </div>
                             </div>
@@ -421,23 +421,21 @@
                         <div>
                             <h5 class="mb-2 text-center">Podaci o kupcu:</h5>
                             <p class="small">Ime i prezime kupca:</p>
-                            <input type="text" name="" id="" class="form-control form-control-sm">
+                            <input type="text" name="customerName" id="customerName" class="form-control form-control-sm">
                             <p class="small">E-mail</p>
-                            <input type="email" name="" id="" class="form-control form-control-sm">
+                            <input type="email" name="customerMail" id="customerMail" class="form-control form-control-sm">
                             <p class="small">Broj Telefona</p>
-                            <input type="tel" name="" id="" class="form-control form-control-sm">
+                            <input type="tel" name="customerPhone" id="customerPhone" class="form-control form-control-sm">
                             <hr>
                         </div>
                         <div>
                             <h5 class="mb-2 text-center">Podaci o dostavi:</h5>
                             <p class="small">Adresa dostave:</p>
-                            <input type="text" name="" id="" class="form-control form-control-sm">
-                            <p class="small">Opstina dostave:</p>
-                            <select class="custom-select form-select  form-select-sm" id="inputGroupSelect01">
-                                <option value="1" selected>One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
+                            <input type="text" name="customerAdress" id="customerAdress" class="form-control form-control-sm">
+                            <p class="small">Opstina</p>
+                            <input type="text" name="" id="" class="form-control  form-control-sm">
+                            <p class="small">Postal Code</p>
+                            <input type="text" name="customerPostalCode" id="customerPostalCode" class="form-control form-control-sm">
                             <p class="small">Broj stana</p>
                             <input type="text" name="" id="" class="form-control  form-control-sm">
                             <hr>
