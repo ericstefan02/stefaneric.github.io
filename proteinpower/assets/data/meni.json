@@ -1,0 +1,22 @@
+[
+    {
+        "href":"#services",
+        "text":"Usluge"
+    },
+    {
+        "href":"#shop",
+        "text":"Proizvodi"
+    },
+    {
+        "href":"#about",
+        "text":"O nama"
+    },
+    {
+        "href":"#team",
+        "text":"Naš tim"
+    },
+    {
+        "href":"#contact",
+        "text":"Kontakt"
+    }
+]
