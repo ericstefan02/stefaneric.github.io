@@ -45,6 +45,20 @@
   </head>
 
   <body id="page-top">
+
+     <!-- Div with message of buying -->
+     <div class="position-fixed w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-50 d-none" id="shopingGood">
+      <div class="bg-dark p-4 rounded text-warning border border-3 border-warning">
+        <h2>Hvala Vam što kupujete sa nama!</h2>
+        <p>Podaci o poružbini biće Vam poslati na mejl.</p>
+      </div>
+    </div>
+
+    <!-- Spinner -->
+    <div class="spinner-container">
+      <div class="spinner text-warning"></div>
+    </div>
+    
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
@@ -88,8 +102,8 @@
     <section class="page-section" id="services">
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">Usluge</h2>
-          <h3 class="section-subheading text-muted">
+          <h2 class="section-heading text-uppercase fw-semibold">Usluge</h2>
+          <h3 class="section-subheading">
             U ponudi imamo veliki broj usluga za Vas
           </h3>
         </div>
@@ -99,8 +113,8 @@
               <i class="fas fa-circle fa-stack-2x text-warning"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">E-prodavnica</h4>
-            <p class="text-muted">
+            <h4 class="my-3 fw-bold">E-prodavnica</h4>
+            <p class="text-dark">
               Ponosimo se sa izuzetnim asortimanom fitnes dodaka za ishrenu, dostupni u svega par klikova.
             </p>
           </div>
@@ -109,8 +123,8 @@
               <i class="fas fa-circle fa-stack-2x text-warning"></i>
               <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">Pomoć profesionalaca</h4>
-            <p class="text-muted">
+            <h4 class="my-3 fw-bold">Pomoć profesionalaca</h4>
+            <p class="text-dark">
               Ukoliko je to potrebno, uvek su vam na raspolaganju naši profesionalnci ako imate nedoumica oko suplemenata.
             </p>
           </div>
@@ -119,312 +133,113 @@
               <i class="fas fa-circle fa-stack-2x text-warning"></i>
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">Sigurna kupovina</h4>
-            <p class="text-muted">
+            <h4 class="my-3 fw-bold">Sigurna kupovina</h4>
+            <p class="text-dark">
               Budite uvereni da je trgovina na našoj e-prodavnici u skladu sa najnovijim standardima sigurnosti.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <!-- shop Grid-->
-    <section class="page-section bg-light" id="shop">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Proizvodi</h2>
-          <h3 class="section-subheading text-muted">
-            Samo najbolje, od najboljih za najbolje!.
-          </h3>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-2 col-md-2 col-sm-12 container">
-            <h4 class="mb-3">Filteri:</h4>
-            <hr />
-            <h5>Dostupnost:</h5>
-            <div class="form-check">
-              <input
-                class="form-check-input availability"
-                name="availability"
-                type="radio"
-                value="true"
-                id="availabilityTrue"
-              />
-              <label class="form-check-label" for="availabilityTrue"
-                >Na lageru
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input availability"
-                name="availability"
-                type="radio"
-                value="false"
-                id="availabilityFalse"
-              />
-              <label class="form-check-label" for="availabilityFalse"
-                >Nije na lageru
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input availability"
-                name="availability"
-                type="radio"
-                value="all"
-                id="availabilityAll"
-              />
-              <label class="form-check-label" for="availabilityFalse"
-                >Svi proizvodi
-              </label>
-            </div>
-            <hr />
-            <div>
-              <h5>Cenovni opseg:</h5>
-              <div class="row justify-content-between">
-                <div class="col-6">
-                  <p class="small mb-0">Min. cena:</p>
-                </div>
-                <div class="col-6">
-                  <p class="small mb-0">Maks. cena:</p>
-                </div>
+    <!-- all offers -->
+    <div id="offers">
+          <!-- products on sale -->
+      <section class="page-section bg-light" id="shop">
+        <div class="container">
+          <div class="text-center">
+            <h3 class="section-heading text-uppercase border-bottom border-warning w-25 m-auto p-2 my-2 fw-bold">Akcijska ponuda
+              <span class="text-warning fs-1"><i class="fa-solid fa-bomb"></i></span>
+            </h3>
+              <h5 class="my-4"
+              >
+                Ponuda ističe za
+              </h5>
+              <div>
+                <p class="fw-bold fs-2 bg-warning rounded-5 w-50 m-auto" id="timeLeft">vreme</p>
               </div>
-              <div class="row justify-content-between">
-                <div class="col-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="minPrice"
-                    placeholder="0"
-                  />
-                </div>
-                <div class="col-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="99999"
-                    id="maxPrice"
-                  />
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div id="filters"></div>
-          </div>
-          <div class="col-10 container">
-            <div class="d-flex justify-content-between my-3">
-              <div class="col-lg-4">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="search"
-                  placeholder="Pretraži..."
-                />
-              </div>
-              <div class="col-lg-4">
-                <select class="form-select" id="sort">
-                  <option value="0" selected>Sortiraj po:</option>
-                  <option value="1">Ceni rastuće</option>
-                  <option value="2">Ceni opadajuće</option>
-                  <option value="3">Imenu rastuće</option>
-                  <option value="4">Imenu opadajuće</option>
-                </select>
-              </div>
-            </div>
-            <div class="row" id="products"></div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- About-->
-    <section class="page-section" id="about">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">O nama</h2>
-          <h3 class="section-subheading text-muted">
-            Naš mali skromni istorijat
-          </h3>
-        </div>
-        <ul class="timeline">
-          <li>
-            <div class="timeline-image">
-              <img
-                class="rounded-circle img-fluid"
-                src="assets/img/about/1.jpg"
-                alt="..."
-              />
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>2009-2011</h4>
-                <h4 class="subheading">Naši prvi koraci</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                  Sve je počelo kao težnja za internet prodavnicom sa velikim asortimanom fitnes suplemenata po
-                  pristupačnim cenama. Ta težnja se pretvorila i u motivaciju da tako nešto bude stvarnost.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <img
-                class="rounded-circle img-fluid"
-                src="assets/img/about/2.jpg"
-                alt="..."
-              />
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>2018</h4>
-                <h4 class="subheading">ProteinPower rođenje</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                  Posle marljive potrage za partnerima i osnivanjem naše kompanije, rođen je PROTEINPOWER!
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <img
-                class="rounded-circle img-fluid"
-                src="assets/img/about/3.jpg"
-                alt="..."
-              />
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Avgust 2020</h4>
-                <h4 class="subheading">Faza dva: proširivanje</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                  Povećavanjem našeg tržišta paralelno smo povećavali i naš asortiman, te se sada možemo ponositi sa
-                  jednom od najveće i najraznovrsnije ponuda raznih fitnes dodataka ishrani.
-                  Naravno ništa od ovog ne bi bilo moguće bez naših zaposlenih, koji u realost sprovode visoke standarde
-                  koje
-                  držimo.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>
-                Postani
-                <br />
-                i TI deo
-                <br />
-                naše priče
-              </h4>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- Team-->
-    <section class="page-section bg-light" id="team">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Upoznajte naš tim</h2>
-          <h3 class="section-subheading text-muted">
-            Upoznajte izvore naše snage.
-          </h3>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img
-                class="mx-auto rounded-circle"
-                src="assets/img/team/1.jpg"
-                alt="..."
-              />
-              <h4>Marko Marinković</h4>
-              <p class="text-muted">CEO</p>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Parveen Anand Twitter Profile"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Parveen Anand Facebook Profile"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Parveen Anand LinkedIn Profile"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
+        <div class="container-fluid my-5">
+          <div class="row justify-content-center" id="actionProducts">
+          
           </div>
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img
-                class="mx-auto rounded-circle"
-                src="assets/img/team/2.jpg"
-                alt="..."
-              />
-              <h4>Tamara Milutinović</h4>
-              <p class="text-muted">Glavni nutricionista</p>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Diana Petersen Twitter Profile"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Diana Petersen Facebook Profile"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Diana Petersen LinkedIn Profile"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
+        </div>
+        <!-- our mission -->
+        <div class="container text-center my-5">
+          <h3 class="fw-bold text-uppercase my-5">Postignite svoje ciljeve sa ProteinPower ekipom</h3>
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <img src="assets/img/services/buildmuscle.jpg" alt="man working out" class="img-fluid">
+              <p class="border-bottom border-3 border-warning fw-semibold">Izgradite mišiće kupujući naše najkvalitetnije gainere
+                <span class="fs-4 text-warning"><i class="fa-solid fa-dumbbell"></i></span>
+              </p> 
             </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img
-                class="mx-auto rounded-circle"
-                src="assets/img/team/3.jpg"
-                alt="..."
-              />
-              <h4>Ivan Mitrović</h4>
-              <p class="text-muted">IFBB PRO licencirani trener</p>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Larry Parker Twitter Profile"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Larry Parker Facebook Profile"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Larry Parker LinkedIn Profile"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <img src="assets/img/services/getstronger.jpg" alt="barbell" class="img-fluid"> 
+              <p class="border-bottom border-3 border-warning fw-semibold">Poboljšajte snagu koristeći naš najkvalitetniji kreatin
+                <span class="fs-4 text-warning"><i class="fa-solid fa-hand-fist"></i></span>
+              </p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <img src="assets/img/services/getinshape.jpg" alt="man running on treadmill" class="img-fluid">
+              <p class="border-bottom border-3 border-warning fw-semibold">Dovedite se u kondiciju i smršajte koristeći naš l-carnitine 
+                <span class="fs-4 text-warning"><i class="fa-solid fa-person-running"></i></span>
+              </p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <img src="assets/img/services/gethealthier.jpg" alt="nutrition plan" class="img-fluid">
+              <p class="border-bottom border-3 border-warning fw-semibold">Ojačajte imuni sistem kupujući neophodne vitamine kod nas
+                <span class="fs-4 text-warning"><i class="fa-solid fa-heart-pulse"></i></span>
+              </p> 
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        
+        <!-- most sold products -->
+        <div class="bg-dark p-2">
+          <div class="container">
+            <div class="text-center">
+              <h3 class="section-heading text-uppercase border-bottom border-warning w-25 m-auto p-2 my-2 fw-bold text-warning">Najprodavaniji proizvodi
+                <span class="text-warning fs-2"><i class="fa-brands fa-hotjar"></i></span>
+              </h3>
+                <h5 class="my-5 text-warning text-uppercase fw-semibold"
+                >
+                  Najbolji odnos cene i kvaliteta
+                </h5>
+            </div>
+          </div>
+          <div class="container-fluid my-4">
+            <div class="row justify-content-center" id="productsWithMostSales">
+            
+            </div>
+            <div class="text-center">
+              <a class="text-decoration-none text-dark" href="shop.html">
+                <p class="fs-4 fw-bold bg-warning rounded m-auto my-2" id="allProductsLink">Pogledajte ceo asortiman <i class="fa-solid fa-angles-right"></i></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- newest products -->
+          <div class="container" id="newestProductsDiv">
+            <div class="text-center">
+              <h3 class="section-heading text-uppercase border-bottom border-warning w-25 m-auto p-2 fw-bold">Najnoviji proizvodi u ponudi
+                <span class="text-warning fs-2"><i class="fa-solid fa-calendar-check"></i></span>
+              </h3>
+                <h5 class="my-5 text-uppercase"
+                >
+                  Samo po želji naših kupaca
+                </h5>
+            </div>
+          </div>
+          <div class="container-fluid my-4">
+            <div class="row justify-content-center" id="newestProducts">
+            
+            </div>
+          </div>
+  
+  
+      </section>
+    </div>
     <!-- Contact-->
     <section class="page-section" id="contact">
       <div class="container">
@@ -434,13 +249,6 @@
             Za vas uvek dostupni od 08-20 časova.
           </h3>
         </div>
-        <!-- * * * * * * * * * * * * * * *-->
-        <!-- * * SB Forms Contact Form * *-->
-        <!-- * * * * * * * * * * * * * * *-->
-        <!-- This form is pre-integrated with SB Forms.-->
-        <!-- To make this form functional, sign up at-->
-        <!-- https://startbootstrap.com/solution/contact-forms-->
-        <!-- to get an API token!-->
         <form id="contactForm">
           <div class="row align-items-stretch mb-5">
             <div class="col-md-6">
@@ -504,7 +312,7 @@
             >
             Pošalji
             </button>
-            <div class="valid-feedback fs-2" id="messageSent">
+            <div class="valid-feedback fs-2 text-uppercase fw-semibold" id="messageSent">
               <p>Uspešno slanje poruke</p>
             </div>
           </div>
@@ -542,7 +350,7 @@
             </div>
 
             <div
-              class="col-sm-12 col-md-4 mb-4 mb-md-0 rounded-3 p-4 content-bg"
+              class="col-sm-12 col-md-4 mb-4 mb-md-0 rounded-3 p-4 content-bg" id="cartForm"
             >
               <div id="cartPrice" class="text-center">
                 <h3 class="mb-2">Ukupna cena:</h3>
@@ -658,7 +466,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 text-lg-start">
-            Copyright &copy; Your Website 2022
+            Copyright &copy; Stefan Erić
           </div>
           <div class="col-lg-4 my-3 my-lg-0">
             <a
@@ -680,11 +488,9 @@
               ><i class="fab fa-linkedin-in"></i
             ></a>
           </div>
-          <div class="col-lg-4 text-lg-end">
-            <a class="link-dark text-decoration-none me-3" href="#!"
-              >Privacy Policy</a
-            >
-            <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+          <div class="col-lg-4 text-lg-end">  
+            <a class="link-dark text-decoration-none mx-3" data-bs-toggle="modal" id="authorButton" href = "index.html">Početna</a>
+            <a class="link-dark text-decoration-none mx-3" data-bs-toggle="modal" id="authorButton" href = "shop.html">Prodavnica</a>
             <a class="link-dark text-decoration-none mx-3" data-bs-toggle="modal" id="authorButton" href = "#authorModal">Autor</a>
             <a class="link-dark text-decoration-none" target="_blank" href="Dokumentacija.pdf">Dokumentacija</a>
 
@@ -693,7 +499,7 @@
       </div>
     </footer>
    
-    <!-- shop item 1 modal popup-->
+    <!-- shop item modals popup-->
     <div id="modals"></div>
 
     <!-- Bootstrap core JS-->

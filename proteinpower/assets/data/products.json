@@ -14,7 +14,10 @@
             "src":"assets/img/shop/theGainer1.jpg",
             "alt":"Picture of gainer"
         },
-        "available":true
+        "available":true,
+        "sales":1500,
+        "date":"2022-04-14"
+
     },
     {
         "id":2,
@@ -25,13 +28,15 @@
             "newPrice":"3560"
         },
         "categoryId":4,
-        "brandId":3,
+        "brandId":1,
         "flavoursIds":[1, 2, 3],
         "img":{
             "src":"assets/img/shop/theGainer2.jpg",
             "alt":"Picture of gainer"
         },
-        "available":true
+        "available":true,
+        "sales":1600,
+        "date":"2022-04-14"
 
     },
     {
@@ -49,7 +54,9 @@
             "src":"assets/img/shop/yamamotoWhey1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":false
+        "available":false,
+        "sales":500,
+        "date":"2023-04-14"
 
     },
     {
@@ -67,7 +74,9 @@
             "src":"assets/img/shop/theWhey1.png",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":1200,
+        "date":"2022-04-14"
 
     },
     {
@@ -85,7 +94,9 @@
             "src":"assets/img/shop/theWhey2.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":false
+        "available":false,
+        "sales":1000,
+        "date":"2023-04-13"
 
     },
     {
@@ -103,7 +114,9 @@
             "src":"assets/img/shop/theWhey3.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":false
+        "available":false,
+        "sales":3500,
+        "date":"2021-04-14"
 
     },
     {
@@ -121,7 +134,9 @@
             "src":"assets/img/shop/usaWhey1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":400,
+        "date":"2023-04-12"
     },
     {
         "id":8,
@@ -138,7 +153,9 @@
             "src":"assets/img/shop/usaWhey2.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":700,
+        "date":"2023-04-11"
     },
     {
         "id":9,
@@ -155,7 +172,9 @@
             "src":"assets/img/shop/usaWhey3.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":4500,
+        "date":"2022-03-14"
     },
     {
         "id":10,
@@ -172,7 +191,9 @@
             "src":"assets/img/shop/scWhey1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":false
+        "available":false,
+        "sales":500,
+        "date":"2023-02-14"
     },
     {
         "id":11,
@@ -189,7 +210,9 @@
             "src":"assets/img/shop/scWhey2.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":200,
+        "date":"2022-03-14"
     },
     {
         "id":12,
@@ -206,7 +229,9 @@
             "src":"assets/img/shop/yCreatine1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":1700,
+        "date":"2021-04-14"
     },
     {
         "id":13,
@@ -223,7 +248,9 @@
             "src":"assets/img/shop/theCreatine1.png",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":1300,
+        "date":"2020-04-14"
     },
     {
         "id":14,
@@ -240,7 +267,9 @@
             "src":"assets/img/shop/yBcaa1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":1400,
+        "date":"2021-02-14"
     },
     {
         "id":15,
@@ -257,7 +286,9 @@
             "src":"assets/img/shop/yBcaa2.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":500,
+        "date":"2023-04-11"
     },
     {
         "id":16,
@@ -274,7 +305,9 @@
             "src":"assets/img/shop/usaBcaa1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":700,
+        "date":"2021-01-14"
     },
     {
         "id":17,
@@ -291,7 +324,9 @@
             "src":"assets/img/shop/theBcaa1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":1100,
+        "date":"2020-01-14"
     },
     {
         "id":18,
@@ -308,7 +343,9 @@
             "src":"assets/img/shop/usaBcaa2.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":500,
+        "date":"2021-02-14"
     },
     {
         "id":19,
@@ -325,7 +362,9 @@
             "src":"assets/img/shop/thel1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":false
+        "available":false,
+        "sales":400,
+        "date":"2021-05-14"
     },
     {
         "id":20,
@@ -342,7 +381,9 @@
             "src":"assets/img/shop/usal1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":300,
+        "date":"2021-07-14"
     },
     {
         "id":21,
@@ -359,7 +400,9 @@
             "src":"assets/img/shop/usal2.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":200,
+        "date":"2021-01-14"
     },
     {
         "id":22,
@@ -376,11 +419,13 @@
             "src":"assets/img/shop/yv1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":false
+        "available":false,
+        "sales":1600,
+        "date":"2021-04-14"
     },
     {
         "id":23,
-        "name":"Vitamin C Complex +D3+Cink THE NUTRITION 120 kapsula",
+        "name":"Vitamin C Complex THE NUTRITION 120",
         "description":"Vitamin C complex sadrži Cink, vitamin D3 i prirodni ekstrakt šipka. Ova jedinstvena formula postepeno oslobađa i dodaje hranljive materije vašem organizmu. Vitamin C doprinosi održavanju normalne funkcije imunog sistema tokom i nakon intenzivne fizičke aktivnosti. Blagotvorno dejstvo se postiže unosom od 200mg vitamina C.        ",
         "price":{
             "oldPrice":"1420",
@@ -393,7 +438,9 @@
             "src":"assets/img/shop/thev1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":1100,
+        "date":"2022-08-14"
     },
     {
         "id":24,
@@ -410,6 +457,8 @@
             "src":"assets/img/shop/scv1.jpg",
             "alt":"Picture of whey protein"
         },
-        "available":true
+        "available":true,
+        "sales":1000,
+        "date":"2023-02-14"
     }
 ]

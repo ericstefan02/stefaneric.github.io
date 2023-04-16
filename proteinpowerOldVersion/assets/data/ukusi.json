@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name":"Čokolada"
+    },
+    {
+        "id":2,
+        "name":"Jagoda"
+    },
+    {
+        "id":3,
+        "name":"Keks"
+    },
+    {
+        "id":4,
+        "name":"Vanila"
+    },
+    {
+        "id":5,
+        "name":"Banana"
+    }
+]
