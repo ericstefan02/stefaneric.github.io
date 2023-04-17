@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "name":"The Nutrition All in 1 GAINER(4500+500 grams FREE)",
+        "name":"The Nutrition All in 1 GAINER",
         "description":"All in 1 GAINER -NOVO NA TRŽIŠTU Najbolji preparat za dobijanje misicne mase,odrzavanje kilaze,za oporavak misica.ALL IN ONE GEJNER sadrzi40% PROTEINA+KREATIN ETIL ESTER+BETA ALANIN, BCAA, glutamin, arginin.Preparat za sportiste i rekreativce",
         "price":{
             "oldPrice":"7990",
@@ -21,7 +21,7 @@
     },
     {
         "id":2,
-        "name":"THE NUTRITION ALL IN 1 Gainer 2000 grama/povecanje mase",
+        "name":"THE NUTRITION ALL IN 1 Gainer 2000",
         "description":"All in 1 GAINER -NOVO NA TRŽIŠTU nudi jednostavno rješenje: sve u jednom! Više ne morate kupovati nekoliko proizvoda da poboljšate svoje napore. ALL-IN 1 GAINER nudi sve sastojke koji su potrebni za rast mišića. Sve u jednom, Gainer koji sadrži 60g proteina po obroku (150g)!",
         "price":{
             "oldPrice":"3560",
@@ -41,7 +41,7 @@
     },
     {
         "id":3,
-        "name":"Iso-FUJI® Yamamoto Nutrition protein 2000 grama",
+        "name":"Iso-FUJI® Yamamoto Nutrition protein 2000",
         "description":"Iso-FUJI® - Dodatak ishrani  koji je nastao izolacijom, odnosno unakrsnom ultrafiltracijom i mikrofiltracijom Volactive® Ultra Whey XP. Mikrofiltracija (CMF) je najskuplji proces za izolaciju proteinskih dodataka na bazi surutke, ali je i onaj koji najbolje štiti integritet i prisustvo bioaktivnih proteinskih frakcija, koje odreduju kvalitet proteina.",
         "price":{
             "oldPrice":"9390",
@@ -61,7 +61,7 @@
     },
     {
         "id":4,
-        "name":"THE Amino Whey Hydro protein 3.500 g",
+        "name":"THE Amino Whey Hydro protein 3500",
         "description":"Amino Whey Hydro protein The Nutrition. je preko 86% Protein i sadrži gotovo ništa Masti ili Ugljenih Hidrata. Pruža sinergističku mešavinu nakvalitetnijih izvora Proteina, koji ne samo da povećavaju sintezu Proteina, volumen ćelija i misićni anabolizam, dok istovremeno štite zglobove i hrskavice, već i jačaju imuni sistem i smanjuju nivo lošeg (LDL) Holesterola i smanjuju mogućnost Srčanih Bolesti.",
         "price":{
             "oldPrice":"7990",
@@ -81,11 +81,11 @@
     },
     {
         "id":5,
-        "name":"THE Amino Whey Hydro 2300 g",
+        "name":"THE Amino Whey Hydro 2300",
         "description":"Amino Whey Hydro protein The Nutrition  povećava mišićni rast, oporavak i opšte zdravlje svih telesnih tkiva. Suplementacija Proteinom je sastavni deo ishrane sportista, poboljšava zdravlje i pomaže u izgradnji mišića.",
         "price":{
-            "oldPrice":"7990",
-            "newPrice":"6790"
+            "oldPrice":"6990",
+            "newPrice":"5790"
         },
         "categoryId":1,
         "brandId":1,
@@ -101,7 +101,7 @@
     },
     {
         "id":6,
-        "name":"THE Basic 100% Whey protein 1800 grama",
+        "name":"THE Basic 100% Whey protein 1800",
         "description":"100% Whey Protein je napredna formula proteina surutke, napravljena za sve sportaše, koji žele više mišića, više snage i brži oporavak. Svaki obrok osigurava 22g whey proteina surutke i 5 grama aminokiselina razgranatog lanca (BCAA), te sa 2,4 grama možda i najbitnije aminokiseline L-leucin.",
         "price":{
             "oldPrice":"3990",
@@ -121,7 +121,7 @@
     },
     {
         "id":7,
-        "name":"Iso Whey Zero 910 g",
+        "name":"Iso Whey Zero 910",
         "description":"Iso Whey Zero je napravljen od najčistijeg mikrofiltriranog izolata proteina surutke. Velika biološka vrednost i veoma brza apsorpcija čine Iso Whey Zero apsolutno jedinstvenim proizvodom. Iso Whey Zero ne sadrži zasićene masti i šećer. Nema beskorisnih, a ni skrivenih sastojaka, koji bi mogli da se talože kao telesne masti.",
         "price":{
             "oldPrice":"9990",
@@ -140,7 +140,7 @@
     },
     {
         "id":8,
-        "name":"BUS 100% Pure Whey 2270 g",
+        "name":"BUS 100% Pure Whey 2270",
         "description":"Ovaj proizvod je prijatnog ukusa i proizveden je bez aditiva i sadrži nizak nivo ugljenih hidrata i masti što osigurava njegovu brzu apsorpciju.",
         "price":{
             "oldPrice":"7990",
@@ -159,14 +159,14 @@
     },
     {
         "id":9,
-        "name":"Iso Whey Zero kesica 25 grama",
+        "name":"Iso Whey Zero kesica 25",
         "description":"Iso Whey Zero je napravljen od najčistijeg mikrofiltriranog izolata proteina surutke. Velika biološka vrednost i veoma brza apsorpcija čine Iso Whey Zero apsolutno jedinstvenim proizvodom. Iso Whey Zero ne sadrži zasićene masti i šećer. Nema beskorisnih, a ni skrivenih sastojaka, koji bi mogli da se talože kao telesne masti.",
         "price":{
             "oldPrice":"200",
             "newPrice":"200"
         },
         "categoryId":1,
-        "brandId":4,
+        "brandId":2,
         "flavoursIds":[1, 2, 3, 4, 5],
         "img":{
             "src":"assets/img/shop/usaWhey3.jpg",
@@ -178,7 +178,7 @@
     },
     {
         "id":10,
-        "name":"100% Whey protein 1000 g",
+        "name":"100% Whey protein 1000",
         "description":"100% WHEY Protein je korak ispred bivšeg proizvoda WPC. Njegov sadržaj je unapređen dodacima ultrafrakcije iz proteina surutke i enzimski je prečišćen. Sastav amino kiselina (značajnih za mišićna vlakna) je izuzetno povoljan, preparat je lako svarljiv, a ukus mu je odličan zahvaljujući kvalitetnoj tehnologiji.",
         "price":{
             "oldPrice":"5000",
@@ -197,7 +197,7 @@
     },
     {
         "id":11,
-        "name":"100% Whey PROFFESIONAL Protein 920 g",
+        "name":"100% Whey PROFFESIONAL Protein 920",
         "description":"Ovaj preparat sadrži i peptide sa četiri aminokiseline koji ublažavaju bol u mišićima nakon intenzivnog treninga. 100% Whey Protein Professional sadrži mali procenat laktoze, a obogaćen je L-glutaminom, najzastupljenijom aminokiselinom u mišićimaProtein iz surutke ima najbolji aminokiselinski profil i veću koncentraciju (25%) BCAA od bilo kog drugog proteinskog izvora.         ",
         "price":{
             "oldPrice":"4150",
@@ -216,7 +216,7 @@
     },
     {
         "id":12,
-        "name":"Crea MASS 500g - YAMAMOTO NUTRITION/kreatin",
+        "name":"Crea MASS 500 - YAMAMOTO NUTRITION",
         "description":"Dijetetski dodatak koji obezbeđuje 100% kreatin monohidrat, preporučuje se za odrasle koji se bave intenzivnim fizičkim vežbanjem.",
         "price":{
             "oldPrice":"4350",
@@ -235,7 +235,7 @@
     },
     {
         "id":13,
-        "name":"KREATIN (CREATINE) THE - 300G (KREATIN MONOHIDRAT)",
+        "name":"KREATIN THE - 300 (MONOHIDRAT)",
         "description":"THE Kreatin povećava sintezu molekula ATP (adenozin-tri-fosfata), koja direktno utiče na povećanje snage i izdržljivosti kod anaerobnih aktivnosti.Kreatin monohidrat omogućava intenzivnije treninge,pa na taj naći indirekto utiče na mišićni rast i masu.",
         "price":{
             "oldPrice":"2590",
@@ -254,7 +254,7 @@
     },
     {
         "id":14,
-        "name":"Essential AminoYAMAMOTO® NUTRITION 240 kapleta",
+        "name":"Essential Amino YAMAMOTO® NUTRITION 240",
         "description":"Yamamoto ® Nutrition Essential Amino je esencijalni aminokiselinski dodatak pogodan za odrasle sportiste koji intenzivno treniraju. Esencijalne aminokiseline doprinose ispunjenju zahteva proteina / azota. Pored toga, oni uključuju i aminokiseline razgranatog lanca (BCAA) pogodne za dopunjavanje ishrane",
         "price":{
             "oldPrice":"3350",
@@ -273,7 +273,7 @@
     },
     {
         "id":15,
-        "name":"BCAA 8:1:1 YAMAMOTO® 300g",
+        "name":"BCAA 8:1:1 YAMAMOTO® 300",
         "description":"Yamamoto® Nutrition Bcaa POWDER 8: 1: 1 je dodatak aminokiselina razgranatog lanca u odnosu 8: 1: 1, preporučuje se dopunjavanju  ishrane sportista.Proizvod je obogaćen vitaminom B1, koji doprinosi normalnom energetskom metabolizmu, a vitamin B6 koji doprinosi smanjenju umora.",
         "price":{
             "oldPrice":"2950",
@@ -292,7 +292,7 @@
     },
     {
         "id":16,
-        "name":"Mega Amino 3200 -500 tablete",
+        "name":"Mega Amino 3200 - 500",
         "description":"Mega Amino 3200 su amino kiseline 100% farmaceutske čistoće, a dobijene su iz izolata proteina surutke, izolata kalcijum kazeinata, hidrolizovanog proteina soje i izolata proteina graška.Nakon uzimanja i neposredno nakon apsorpcije amino kiseline dospevaju u krvotok, i pomažu u kontuiniranom održavanju pozitivne ravnoteže nitrogena, sprečavaju proces katabolizma, pospešuju oporavak i rast mišića. ",
         "price":{
             "oldPrice":"5000",
@@ -311,7 +311,7 @@
     },
     {
         "id":17,
-        "name":"THE Beast 300g / Blue Ice",
+        "name":"THE Beast 300 / Blue Ice",
         "description":"THE® BEAST, nova formula na bazi Citrulina (DL-Malate), Beta-Alanina i Kofeina, osiguraće vašim mišićima više snage, bolji fokus i zversku pumpu. Ovaj fantastičan no reaktor dolazi u novom redizajniranom pakovanju, sa novom aromom plave maline.        ",
         "price":{
             "oldPrice":"3190",
@@ -330,7 +330,7 @@
     },
     {
         "id":18,
-        "name":"Mega Amino 3200 -100 tableta",
+        "name":"Mega Amino 3200 - 100 ",
         "description":"Mega Amino 3200 su amino kiseline 100% farmaceutske čistoće, a dobijene su iz izolata proteina surutke, izolata kalcijum kazeinata, hidrolizovanog proteina soje i izolata proteina graška.Nakon uzimanja i neposredno nakon apsorpcije amino kiseline dospevaju u krvotok, i pomažu u kontuiniranom održavanju pozitivne ravnoteže nitrogena, sprečavaju proces katabolizma, pospešuju oporavak i rast mišića.         ",
         "price":{
             "oldPrice":"7990",
@@ -349,7 +349,7 @@
     },
     {
         "id":19,
-        "name":"L-Carnitine Acetyl The nutrition 150 kapsula",
+        "name":"L-Carnitine Acetyl THE nutrition 150",
         "description":"THE Acetyl  L-Carnitine omogućava prenos dugo-lančanih masnih kiselina i triglicerida u mitohondrije. Na ovaj način, povećava i ubrzava sagorevanje masti, a sa time mišićima dovodi energiju, koja nam je potrebna za intenzivan trening.",
         "price":{
             "oldPrice":"1950",
@@ -368,7 +368,7 @@
     },
     {
         "id":20,
-        "name":"L-Karnitin 1000mg 30 kapsula",
+        "name":"L-Karnitin 1000mg 30",
         "description":"Pretvara telesne masti u dodatnu energiju Smanjuje stvaranje mlečne kiseline u mišićima Povećava energiju, snagu i izdržljivost Ubrzava oporavak nakon intenzivnog treninga Poboljšava opšte zdravlje organizma",
         "price":{
             "oldPrice":"1380",
@@ -406,7 +406,7 @@
     },
     {
         "id":22,
-        "name":"Multi VITAMIN Yamamoto® Nutrition 60 tableta",
+        "name":"Multi VITAMIN Yamamoto® Nutrition 60",
         "description":"Yamamoto® Nutrition predstavlja Multi Vitamin. Prehrambeni dodatak koji pruža potpun spektar vitamina i minerala. Proizvod je pogodan u slucaju smanjenog unosa iz ishrane ili povecanih zahteva za ove hranljive materije.        ",
         "price":{
             "oldPrice":"1550",

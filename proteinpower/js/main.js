@@ -437,6 +437,26 @@ setTimeout(function(){
     document.querySelector("#numberOfProducts").innerHTML=`Prikazuje se: ${numberOfProductsShowing} od ${numberOfAllProducts} proizvoda`
   }
   showNumberOfProducts();
+  //funckija koja cisti sve filtere
+  function removeFilters(e){
+    e.preventDefault();
+    removeText("minPrice");
+    removeText("maxPrice");
+    removeText("search");
+    $("#sort").val("0");
+    var allCheckBoxes = document.querySelectorAll('input[type="checkbox"]');
+    for(var i = 0;i<allCheckBoxes.length;i++){
+      allCheckBoxes[i].checked = false;
+    }
+    var allRadios = document.querySelectorAll('input[type="radio"]');
+    for(var i = 0;i<allRadios.length;i++){
+      allRadios[i].checked = false;
+    }
+    window.scrollTo(0,0)
+    filterChanged();
+  }
+  //dodavanje funkcije za ciscenje filtera dugmetu
+  $("#clearFiltersButton").click(removeFilters);
   //funkcija koja filtrira proizvode po trazenom tekstu
     function filterByTxt() {
       var writtenText = document
@@ -494,7 +514,6 @@ setTimeout(function(){
       if (minPrice != "" && maxPrice == "") {
         maxPrice = "100000000";
       }
-      allProducts.forEach((element) => {});
       if (minPrice == "" && maxPrice == "") {
         showProducts(JSON.parse(localStorage.getItem("newProducts")));
       } else {

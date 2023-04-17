@@ -11,7 +11,7 @@
     <meta name="author" content="Stefan Erić" />
     <title>Protein Power</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/img/proteinPowerLogo.ico" />
     <!-- Font Awesome icons (free version)-->
     <script
       src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
@@ -168,6 +168,11 @@
             </div>
             <hr />
             <div id="filters"></div>
+            <div class="bg-warning text-center">
+              <a href="#" class="text-decoration-none text-dark text-uppercase fw-bolder" id="clearFiltersButton"><p>Očisti filtere
+                <i class="fa-solid fa-ban"></i>
+              </p></a>
+            </div>
           </div>
           <div class="col-10 container">
             <div class="d-flex justify-content-between my-3">
@@ -177,10 +182,12 @@
                   class="form-control"
                   id="search"
                   placeholder="Pretraži..."
+                  value=""
+                  autocomplete="off"
                 />
               </div>
               <div class="col-lg-4">
-                <select class="form-select" id="sort">
+                <select class="form-select" id="sort" autocomplete="off">
                   <option value="0" selected>Sortiraj po:</option>
                   <option value="1">Ceni rastuće</option>
                   <option value="2">Ceni opadajuće</option>
@@ -360,8 +367,8 @@
             ></a>
           </div>
           <div class="col-lg-4 text-lg-end  ">
-             <a class="link-dark text-decoration-none mx-3" data-bs-toggle="modal" id="authorButton" href = "index.html">Početna</a>
-            <a class="link-dark text-decoration-none mx-3" data-bs-toggle="modal" id="authorButton" href = "shop.html">Prodavnica</a>
+            <a class="link-dark text-decoration-none mx-3" href = "index.html">Početna</a>
+            <a class="link-dark text-decoration-none mx-3" href = "#">Prodavnica</a>
             <a class="link-dark text-decoration-none mx-3" data-bs-toggle="modal" id="authorButton" href = "#authorModal">Autor</a>
             <a class="link-dark text-decoration-none" target="_blank" href="Dokumentacija.pdf">Dokumentacija</a>
 
