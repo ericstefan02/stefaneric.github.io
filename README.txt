@@ -1,0 +1,1 @@
+This repository was initially intended to store all of my projects, but I later realized it's better to create a separate repository for each project. I've kept this one just in case.
